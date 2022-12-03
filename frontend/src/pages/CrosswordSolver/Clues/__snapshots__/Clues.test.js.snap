@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="crossword__clues"
+  style={
+    Object {
+      "maxHeight": "80vh",
+      "overflow-y": "scroll",
+    }
+  }
+/>
+`;

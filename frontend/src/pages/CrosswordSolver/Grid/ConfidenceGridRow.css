@@ -1,0 +1,11 @@
+.row {
+    height: 2em;
+    width: 100%;
+}
+
+.grid-row {
+    border: 0;
+    height: 2em;
+    margin: 0;
+    padding: 0;
+}

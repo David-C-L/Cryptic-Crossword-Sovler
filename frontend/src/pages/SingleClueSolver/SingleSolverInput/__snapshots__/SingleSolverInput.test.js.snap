@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <form
+    className="text-center my-3"
+    onSubmit={[Function]}
+  >
+    <div
+      className="mb-3 row"
+    >
+      <div
+        className="col-8"
+      >
+        <input
+          className="form-control"
+          id="singleSolverClue"
+          onChange={[Function]}
+          placeholder="Clue (e.g. companion shredded corset)"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div
+        className="col"
+      >
+        <input
+          className="form-control"
+          id="singleSolverInput"
+          onChange={[Function]}
+          placeholder="Length (e.g. 6 or 3,3)"
+          required={true}
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="my-5 row"
+    >
+      <div
+        className="col"
+      />
+      <div
+        className="col-4 text-center btn-group"
+        role="group"
+      >
+        <button
+          className="btn btn-primary"
+          disabled={false}
+          type="submit"
+        >
+          Solve
+        </button>
+        <button
+          className="btn btn-secondary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Get Hint
+        </button>
+      </div>
+      <div
+        className="col"
+      />
+    </div>
+  </form>
+</div>
+`;

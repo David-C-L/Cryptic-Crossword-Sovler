@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  onClick={[Function]}
+  style={
+    Object {
+      "background": "white",
+    }
+  }
+>
+  <hr
+    style={
+      Object {
+        "borderTop": "1px solid #8c8b8b",
+        "margin": 0,
+        "padding": 0,
+      }
+    }
+  />
+  <li>
+    <p
+      style={
+        Object {
+          "margin": 0,
+          "padding": 0,
+        }
+      }
+    >
+       
+      
+    </p>
+  </li>
+</div>
+`;

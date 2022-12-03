@@ -1,0 +1,44 @@
+stages:
+  - test
+  - testing
+  - internal-deployment
+  - production-deployment
+
+variables:
+  PORT_NO: 5000
+  REDIS_PORT: 7777
+
+unit test:
+  stage: test
+  script:
+    - export PYTHONPATH=.
+    - pip3 install --no-cache-dir -r requirements.txt
+    - cd Server/
+    - pytest --junitxml=report.xml --cov=. ../tests/ && coverage xml
+    - coverage report
+    - coverage xml
+  artifacts:
+    when: always
+    reports:
+      junit: report.xml
+      cobertura: coverage.xml
+
+internal-deployment:
+  stage: internal-deployment
+  script:
+    - echo "Killing old running process."
+    - kill -9 $(lsof -t -i:$PORT_NO) || echo "No Flask server to kill or kill failed"
+    - kill -9 $(lsof -t -i:$REDIS_PORT) || echo "No REDIS server to kill or kill failed"
+    - pip3 install --no-cache-dir -r requirements.txt
+    - screen -dm redis-server --port $REDIS_PORT
+    - screen -dm bash -c 'export PRODUCTION=1 && cd Server && gunicorn app:app --worker-class gevent --bind 0.0.0.0:5000'
+  only:
+    - master
+
+production-deployment:
+  stage: production-deployment
+  script:
+    - echo "Deploying to production"
+    - dpl --provider=heroku --app=cryptic-crossword-solver-api --api-key=$HEROKU_API_KEY
+  only:
+    - master

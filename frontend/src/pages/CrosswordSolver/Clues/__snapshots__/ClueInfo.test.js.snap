@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="clueInfo"
+>
+  <h4
+    className="mb-3 text-center"
+  >
+    , 
+    Down
+  </h4>
+  <div
+    className="alert alert-warning text-center"
+  >
+    <strong>
+      Oh no!
+    </strong>
+     No answer nor explanation has been found yet.
+  </div>
+</div>
+`;

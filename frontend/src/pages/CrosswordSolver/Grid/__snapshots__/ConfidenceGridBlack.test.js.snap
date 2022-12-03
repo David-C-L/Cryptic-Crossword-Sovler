@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<th
+  className="grid-column cell grid-cell black-cell"
+  scope="col"
+/>
+`;

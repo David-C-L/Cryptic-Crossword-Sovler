@@ -1,0 +1,25 @@
+.solve-for-me-page {
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.control-buttons {
+    width: 100%;
+    margin: 0;
+}
+
+.control-button-left {    
+    float: left;
+    margin: 2%;
+}
+
+.control-button-right {
+    float: right;
+    margin: 2%;
+}
+
+.middle-column {
+    display: flex;
+    flex-direction: column;
+}

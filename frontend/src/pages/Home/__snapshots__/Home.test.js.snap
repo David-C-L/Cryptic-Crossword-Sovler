@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="container-fluid w-100 h-100"
+>
+  <div
+    className="row w-100 h-100"
+  >
+    <div
+      className="col-1 my-auto p-5"
+    >
+      <a
+        href="/singleSolver"
+        onClick={[Function]}
+      >
+        <div>
+          <img
+            alt="Left Arrow"
+            className="img-fluid"
+            src="arrow-left.png"
+          />
+        </div>
+      </a>
+    </div>
+    <div
+      className="col-10 h-100 my-auto"
+    >
+      <div
+        className="row h-100 my-auto"
+      >
+        <div
+          className="col-8 my-auto"
+        >
+          <div
+            className="p-4"
+          >
+            <h1>
+              Cryptic Crossword Solver
+            </h1>
+          </div>
+          <div
+            className="p-4"
+          >
+            <h4>
+              This app uses programs written by Imperial College London staff and alumni to solve difficult crosswords from the Guardian website.
+            </h4>
+          </div>
+          <div
+            className="p-4"
+          >
+            <h4>
+              <b>
+                Morse
+              </b>
+            </h4>
+            <h6>
+              A Haskell-based cryptic crossword clue solver that uses functional programming to work out and explain answers, written by Anthony Field.
+            </h6>
+          </div>
+          <div
+            className="p-4"
+          >
+            <h4>
+              <b>
+                Crossword Genius
+              </b>
+            </h4>
+            <h6>
+              A solver that uses machine learning to also solve cryptic crossword clues, developed by Unlikely Artificial Intelligence.
+            </h6>
+          </div>
+        </div>
+        <div
+          className="col-4 my-auto"
+        >
+          <div>
+            <img
+              alt="Example Crossword"
+              className="img-fluid"
+              src="crossword_example.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-1 my-auto p-5"
+    >
+      <a
+        href="/crosswordInput"
+        onClick={[Function]}
+      >
+        <div>
+          <img
+            alt="Right Arrow"
+            className="img-fluid"
+            src="arrow-right.png"
+          />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

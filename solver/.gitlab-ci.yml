@@ -1,0 +1,31 @@
+stages:
+  - test
+  - deploy
+
+variables:
+  PORT_NO: 5000
+
+unit test:
+  stage: test
+  script:
+    - export PYTHONPATH=.
+    - pip3 install --no-cache-dir -r requirements.txt
+    - pytest -v --junitxml=report.xml --cov=. tests/
+    - coverage xml
+    - coverage report --omit=./crossword-solver/*
+    - coverage xml
+  artifacts:
+    when: always
+    reports:
+      junit: report.xml
+      cobertura: coverage.xml
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Killing old running process."
+    - kill -9 $(lsof -t -i:$PORT_NO) || echo "Nothing to kill or kill failed"
+    - export PORT=$PORT_NO
+    - screen -m -d python3 app.py
+  only:
+    - master

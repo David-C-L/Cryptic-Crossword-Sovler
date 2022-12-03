@@ -1,0 +1,26 @@
+To run in GHCi:
+
+% ghci Solver
+
+Then, e.g.
+
+*Solver> clue 45
+("Peeling paint, profit slack, upset, in a state",10)
+*Solver> solve (clue 45)
+0 765
+1 765
+a state -> CALIFORNIA(reversal[upset in] AINROFILAC(middle letters[peeling] PAINT PROFIT SLACK(paint + profit + slack)))
+
+Or you can call the parser (Parser.hs) and evaluator (Evaluation.hs) directly.
+Explain.hs and RunBenchmarks.hs do this.
+
+----------------
+Some branches...
+
+master - current
+harry - includes experimental ANN for indicator recognition
+wildcards - branch to explore wildcards, now merged into master
+verysimple - stripped down version with 5 clue types and no optimisation
+simple - optimised but with simpler, symmetric indicators OBSOLETE
+newparser - new parser with cacheing OBSOLETE
+explanation - optimised with detailed explanation OBSOLETE

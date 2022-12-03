@@ -1,0 +1,5 @@
+.clueInfo {
+  overflow-y: scroll;
+  max-height: 30vh;
+  min-height: 20vh;
+}

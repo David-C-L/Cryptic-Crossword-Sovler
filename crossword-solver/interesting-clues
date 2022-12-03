@@ -1,0 +1,197 @@
+(0,("thwart a swordsman with it",4),"foil")
+(0,("dishes away from usual position wrapped in cloths",7),"ragouts") -- away
+from ususal position = out
+(0,("thought i would take half of each",4),"idea") -- half could be e
+(0,("\"piscine\" means slightly aloof",6),"offish") -- lucky!
+(0,("exaggerated love composer bestowed on daughter",7),"overdid") -- bestowed
+appears in all syns for solving (but not inds)
+solveWithAnswer ("Part of church, part with Ten Commandments at the end, set
+out",8)"transept" -- lovely end letter explanation (LAST commandments ten at ->
+en s t) => with swaps the args.
+(3015,("Who could be a minder with us, if trained?",9),"NURSEMAID" -- clever
+(3015,("Extra de luxe? No end",4),"PLUS")   delux!
+solveWithAnswer ("Story just in Scandinavian folk literature initially remains
+alongside novel", 9) "newsflash" -- first letter map
+(3019,("Flower festival mustn't be allowed to start",5),"ASTER")
+(0,("being persuasive and firm, making cuts",7),"coaxing") making cuts -> axing
+(0,("tough to get the first meadow grass cut",8),"leathery") -- badly formed(?)
+yet the solver has an alternative (better?) explanation!
+I think the solution is "LEATHERY"
+
+Let me explain...
+I think the answer is supposed to mean "tough to"
+"get" separates the definition from the wordplay
+I think "cut" indicates the insertion of one word into another
+   1: "the" is verbatim text
+   2: I think "first" indicates a first-letters take-out
+         I think we have the concatenation of 2 sub-clues:
+            1: The text "meadow" resolves to "lea"
+            2: The text "grass" resolves to "rye"
+         Joining the results together we get "lea rye"
+      The result of the take-out is "leary"
+For the insertion, "the" needs to be inserted into "leary"
+The result is "leathery"
+-----------
+*Solver> cryptonite !!1114
+(0,("being persuasive and firm, making cuts",7),"coaxing")
+*Solver> cryptonite !!1175
+((21755,"Janus"),("Sailors talked about sea voyage",6),"CRUISE") -- picks about
+sea voyage as def. Needs wordnet!
+((22244,"Rufus"),("He's not paid for taking a friend over the old
+city",7),"AMATEUR") -- Turn the cache on!!  Amazingly quicker.
+((21803,"Bunthorne"),("Style of King Herod utterly regressive",5),"TUDOR") --
+bad clue
+((21857,"Logodaedalus"),("Greeted a daughter having put on
+clothes",9),"ADDRESSED") -- Wordnet!!
+((21858,"Fawley"),("Fawley's touring capital, coming back and not
+forgetting",6),"MEMORY") -- ref setter
+((21858,"Fawley"),("I'm back to cover some legislation somewhere in
+Africa",6),"MALAWI") -- add an 'a'
+solve ("sound coming from empty stomach", 4) -- nice one (BEAR!)
+((22042,"Crispa"),("Feeling making an onset is called for",9),"SENSATION") --
+spare words?
+((22042,"Crispa"),("An underground toiler opposing a goddess",7),"MINERVA")
+((22048,"Rufus"),("Get ready for the Spring",6),"CROUCH")  -- clever
+((21764,"Paul"),("It's common to ponder for an informer",4),"FINK")
+((21870,"Araucaria"),("Warning to streetwalkers of Spooner's fatty glutinous
+mess",8),"GARDYLOO")
+("asian film titles in battle", 10)
+start to harvest a crop, baling fine source of fodder(8)
+source of fodder -> HAYFIELD(HA(first letters[start to] HArvest) +
+YFIELD(insertion[baling] F=fine into YIELD=a crop)) -- the 'a' could be part of
+a charade
+held in a coil, end of the streamer, perhaps (8)
+perhaps -> HEADLINE(HE(middle letters[held] THEN=in) + AD(last letters[end of]
+HEAD=a coil) + LINE=the streamer) -- bogus explanation due to indirection
+african country caught by notes showing debt - that's bad (9)
+debt that's bad ->[showing] MALICIOUS(MALI=african country + CIOUS(C=caught
++[by] IOUS=notes)) -- close, but it's "notes showing debt"
+dishearten leaderless exile (5)
+dishearten leaderless -> EJECT=exile
+planted bananas in secret (9)
+planted bananas ->[in] UNDERHAND=secret -- both wrong
+fix this:
+young girl once, a little fly (6)
+young -> DAMSEL(subtract[fly] O(abbreviation[little] once a) from DAMOSEL=girl)
+("directed to turn back horse before i reach the city",5)"delhi" -- two
+solutions, one uses two reversals!
+("in untidy pal's room a piano is out of place",10)"malapropos" -- lots of
+interesting solutions. You MUST use the 'in', so the first and last are correct
+out of place ->[is] MALAPROPOS(insert[in] P=piano into
+MALAROPOS(anagram[untidy] PALSROOMA(PALS=pal's + ROOM + A)))
+out of place ->[is] MALAPROPOS(insert[in] P=piano into
+MALAPROOS(anagram[untidy] PALSROOMA(PALS=pal's + ROOM + A)))
+in untidy -> MALAPROPOS(anagram[is out of place] PALSROOMAP(PALS=pal's + ROOM +
+A + P=piano))
+out of place ->[is] MALAPROPOS(insert[in] AP(A + P=piano) into
+MALROPOS(anagram[untidy] PALSROOM(PALS=pal's + ROOM)))
+device for catching fish, nothing less (7) -- double use of fish
+device for catching -> DRAGNET(subtract[less] O=nothing from DRAGONET=fish)
+comedian always opening with awful gags (3) -- always???
+this may be curtailed -> LIFESPAN(anagram[crashed] IFPLANES(IF +
+PLANES=plane's)) -- &lit, but it sort of gets it.
+she's a minder working with us (9)
+she's -> NURSEMAID(anagram[working with] AMINDERUS(AMINDER(A + MINDER) + US))
+-- another &lit
+stone shelter round battered prom is hopefully this (10)
+hopefully this ->[is] STORMPROOF(insert[round] ORMP(anagram[battered] PROM)
+into STROOF(ST=stone + ROOF=shelter)) -- another &lit
+fruit ->[on] CITRUS(CI=channel islands + TRUS(first letters[endlessly]
+TRUST=rely)) -- Needs indirection
+("First ride on a new horse",4) -- comes up with IRON, rther than ROAN for good
+reason! Also, first "a" cannot be "a", so you don't get 4-way map of first.
+What if just "a first" - you don't want this to give "a".
+(0,("an office in which little or no work gets done",8),"sinecure") -- there's
+a solvable version somewhere.
+("Character cycling with chinese american",6) -- rotation=utahan
+Fancy silver in one place of gold, perhaps (7)
+one place of gold perhaps -> IMAGINE(insert[in] IN=silver into IMAGE=fancy) --
+oops!
+First ride on a new horse -> roan -- lots of valid explanations.
+salt water finally crossed by sea king(7) -> mariner. Water is used twice - tut
+tut.
+determined one has run out of truffle for cooking? (9)
+determined one -> EFFORTFUL(anagram[cooking] FORTUFFLE(for +[has]
+TUFFLE(subtract[out of] R=run from truffle))) -- interesting, also one is
+superfluous?
+showPrunedParses ("woman told next to get some weedkiller",9) "" -- herbicide,
+nice use of homophone (beside). Times.
+(0,("article offered piece of advice concerning appetiser",9),"antipasto") --
+part charade
+(0,("fine fabric wrapped round new surgical instrument",5) -- part charade =
+lance
+(0,("public school heavyweight to join up",9),"tonbridge") -- part charade
+(join up)
+(0,("arrived, backing posh car in, for tea",8),"camomile") -- part charade
+(Times)
+rt charade Times
+(0,("one part of marsh reverts to desert",4),"gobi") 
+(0,("money advanced was much appreciated by auditor",7),"imprest") -- homophone
+solveWithAnswer ("producer short poem if that is required
+initially",9)"versifier" -- needs indirection (verse)
+*Solver> solveWithAnswer ("painter shortly encapsulates cold current in
+lake",8)"titicaca"
+lake ->[in] TITICACA(insert[encapsulates] CAC(C=cold + AC=current) into
+TITIA(first letters[shortly] TITIAN=painter)) -- needs indirection (Times)
+The clue is: ("Sailor wants to achieve objective",6) -- to achieve->get
+(target) Everyman
+("Demand for payment by inn in Scottish town" DUN, part charade, everyman
+amongst the literati -> ELITE=the best -- &lit (everyman)
+("Complain about social worker, religious type",10) -- protestant everyman,
+part charade
+(3133,("Something to raise spirits? Yes, used in France and
+Germany",5),"OUIJA") -- nice (everyman) 
+The clue is: ("Severely criticise the Spanish jury",5) -- part charade (panel,
+everyman)
+*Solver> solveAllWithAnswer ("Heartless girl wearing bonnet? It keeps locks in
+place",7) "hairnet" -- hundreds of solutions with indirection on.
+The clue is: ("Collection of photographs showing wild laburnum with no vase",5)
+Sorry, but I couldn't solve it -- needs indirect subtraction
+The clue is: ("Seeking out lecturer in Cambridgeshire town",10)  -- part
+charade huntingdon everyman
+solveWithAnswer ("european with brief lecture that is about one group engaged
+in politics",14) "electioneering"
+engaged in politics -> ELECTIONEERING(E=european + LECT(first letters[with
+brief] lecture) + IONEE(anagram[about] IEONE(IE=that is + one)) + RING=group)
+The longest clue and answer: 522K parses. Should use insertion rather than
+anagram.
+
+("Removing wrappers to use gas over, Lloyd prepared food", 7) 28575
+prepared food -> SAVELOY(middle letters[removing wrappers to] USE GAS OVER LLOYD(use + gas + over + lloyd))
+
+("Sacred work is a tiny bit tacky at the outset", 5) 28577
+sacred work ->[is] MOTET(MOTE=a tiny bit + T(first letters[at the outset] tacky))
+
+(I made it into one word)...
+ ("Cups in large boxes right? That's a mental lapse",9) 28578
+that's a mental lapse -> BRAINFART(BRA=cups + in + FART(insert[boxes] R=right into FAT=large))
+
+("Athenian's dip in defeat, alas, a marathon backfiring", 12)  28578
+athenian's dip -> TARAMASALATA(middle letters[in] NOHTARAM A SALA TAEFED(reversal[backfiring] DEFEATALASAMARATHON(defeat + alas + a + marathon)))
+
+("Adolescent growth, terrible mistake",8) 28578
+adolescent growth -> BUMFLUFF(BUM=terrible + FLUFF=mistake)
+
+("Fungus by the sea gets wet, finally", 5) 28578
+fungus -> YEAST(last letters[finally] BY SEA GETS WET(by + SEA=the sea + gets + wet))
+
+("Quite forgetting to count",5) 28575
+count -> TALLY(subtract[forgetting] to from TOTALLY=quite)
+
+Ambiguity...
+*Solver> solveAll ("Sets of offices",8)   28560
+sets -> REPLACES(RE=of + PLACES=offices)
+sets ->[of] BACKINGS=offices
+sets ->[of] STATIONS=offices
+sets ->[of] CABINETS=offices
+sets ->[of] SERVICES=offices
+sets ->[of] SECTIONS=offices
+
+odds/evens...
+*Solver> solve ("Wet track limits Asians every so often", 5) G28569
+wet -> RAINY(insert[limits] AIN(odd letters[asians]) into RY=track)
+
+*Solver> solve ("Left old university? Not entirely true",5) G28569 Needs
+indirection
+true -> LOYAL(L=left + O=old + YAL(first letters[not entirely] YALE=university))
+

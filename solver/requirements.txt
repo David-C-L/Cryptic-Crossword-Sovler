@@ -1,0 +1,5 @@
+Flask~=1.1.2
+numpy~=1.21.3
+pexpect~=4.6.0
+pytest-cov==2.12.1
+pytest==6.2.4

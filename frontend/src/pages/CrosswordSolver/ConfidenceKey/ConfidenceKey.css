@@ -1,0 +1,26 @@
+.confidence-key {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.confidence-key-entry {
+    width: 100%;
+    height: 1em;
+    background: linear-gradient(0.25turn, #FF0000, #FFAE00, #FFFF00, #00FF00, #2CBA00);
+}
+
+.confidence-key-label {
+    width: 50%;
+}
+
+.left-label {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.right-label {
+    float: right;
+    margin-right: 0;
+    padding-right: 0;
+    text-align: right;
+}

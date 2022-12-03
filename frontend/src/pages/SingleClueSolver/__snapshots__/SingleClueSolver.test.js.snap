@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="container-fluid w-100 h-100 align-items-center"
+>
+  <div
+    className="row w-100 h-100 justify-content-center"
+  >
+    <div
+      className="col-1"
+    />
+    <div
+      className="col-10 my-auto"
+    >
+      <div
+        className="row p-5"
+      >
+        <div
+          className="col"
+        >
+          <h2
+            className="text-center"
+          >
+            Input a clue to generate an answer and explanation
+          </h2>
+        </div>
+      </div>
+      <div
+        className="row p-5 justify-content-center"
+      >
+        <div
+          className="col-8"
+        >
+          <div>
+            <form
+              className="text-center my-3"
+              onSubmit={[Function]}
+            >
+              <div
+                className="mb-3 row"
+              >
+                <div
+                  className="col-8"
+                >
+                  <input
+                    className="form-control"
+                    id="singleSolverClue"
+                    onChange={[Function]}
+                    placeholder="Clue (e.g. companion shredded corset)"
+                    required={true}
+                    type="text"
+                  />
+                </div>
+                <div
+                  className="col"
+                >
+                  <input
+                    className="form-control"
+                    id="singleSolverInput"
+                    onChange={[Function]}
+                    placeholder="Length (e.g. 6 or 3,3)"
+                    required={true}
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div
+                className="my-5 row"
+              >
+                <div
+                  className="col"
+                />
+                <div
+                  className="col-4 text-center btn-group"
+                  role="group"
+                >
+                  <button
+                    className="btn btn-primary"
+                    disabled={false}
+                    type="submit"
+                  >
+                    Solve
+                  </button>
+                  <button
+                    className="btn btn-secondary"
+                    disabled={false}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Get Hint
+                  </button>
+                </div>
+                <div
+                  className="col"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-1 my-auto p-5"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <div>
+          <img
+            alt="Right Arrow"
+            className="img-fluid"
+            src="arrow-right.png"
+          />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

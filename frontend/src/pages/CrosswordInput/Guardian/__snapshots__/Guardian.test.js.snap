@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="container align-items-center"
+>
+  <form
+    className=""
+  >
+    <div
+      className="my-5 row"
+    >
+      <div
+        className="col-7"
+      >
+        <label
+          className="form-label"
+        >
+          Crossword Type
+        </label>
+        <select
+          className="form-select"
+          onChange={[Function]}
+          value="Everyman"
+        >
+          <option
+            value="Everyman"
+          >
+            Everyman
+          </option>
+          <option
+            value="Quiptic"
+          >
+            Quiptic
+          </option>
+          <option
+            value="Cryptic"
+          >
+            Cryptic
+          </option>
+        </select>
+      </div>
+      <div
+        className="col-5"
+      >
+        <label
+          className="form-label"
+        >
+          Puzzle Number
+        </label>
+        <input
+          className="form-control"
+          onChange={[Function]}
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="mb-5 row"
+    >
+      <div
+        className="text-center col"
+      >
+        <button
+          className="my-3 btn btn-primary btn btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="submit"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

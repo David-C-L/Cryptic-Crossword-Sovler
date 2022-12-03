@@ -1,0 +1,133 @@
+third of march -> r
+
+map homphones, e.g.
+Pupil power I mention in speech (8)
+i mention in speech -> EYESIGHT(EYE=pupil + SIGHT=power)
+
+implement distfix charades e.g. put X after Y. Likewise subs e.g. take X from
+Y. E.g everyman:
+RHETT
+The clue is: ("Butler may make threat if article's withdrawn",5)
+
+
+extend special cases for insertions e.g. X inhale -> X in HALE
+fix this:
+young girl once, a little fly (6)
+young -> DAMSEL(subtract[fly] O(abbreviation[little] once a) from DAMOSEL=girl)
+
+Why two identical solutions to shrieked clue?
+
+Given several solutions with answer given pick the one with a known
+def syn, if there is one, e.g. perfect -> IDEA is wrong, but it
+knows notion -> IDEA, so choose that.
+
+Implement swaps (e.g. exchange ch with s...)
+Spot when one of the syns IS the final answer, e.g.
+The clue is: A good deal signified, they say, by a piece of ground (9)
+I think the solution is "EXHIBITED"
+
+Let me explain...
+I think the answer is supposed to mean "ground"
+I think we have the concatenation of 2 sub-clues:
+   1: I think "a good deal" indicates a first-letters take-out
+         The text "signified" resolves to "exhibited"
+      The result of the take-out is "exhib"
+   2: I think "by a" indicates a charade (juxtaposition) of 2 sub-clues:
+         1: The text "they" resolves to "it"
+            ("say" indicates a specific example of something)
+         2: I think "piece" indicates an anagram
+               The text "of" resolves to "de"
+            The required anagram is "ed"
+      Joining the results together we get "it ed"
+Joining the results together we get "exhib it ed"
+
+add name abbreviations e.g. dot = dorothy
+Add operas
+
+The order of trees under an anagram doesn't matter! So prune them out.
+
+Fix homophone parsing (1,11)
+
+Fix abbreviations parse rule (don't call synonyms)
+
+PROJECT: Homophones
+
+unite middle letter inds and insertion inds, e.g. imported into
+
+separate out innable insertions e.g. covered in, featured in. the main word is
+an enveloping word, but with 'in' becomes an insertion word. Similarly
+anagrams, like hairstyle. Also gadabout -> dag
+
+Add rivers, authors, ...
+
+def indicators and qualifiers will generate multiple identical treees, e.g. X
+to an animal, where to an will be seen as part of the def indicator OR part of the
+definition itself. Could have left- and right-handed defInds to fix this.
+Right-handed ones must exclude qualifiers/noise preceding the definition text.
+
+Long synonym expansions should be penalised, e.g. the second here
+is clearly preferable. Needs to be done by sorting solutions (in Solver?).
+
+The clue is: closed street to hold an eastern dance (8)
+I think the solution is "COURANTE"
+
+Let me explain...
+I think the answer is supposed to mean "dance"
+I think we have the concatenation of 2 sub-clues:
+   1: I think "hold" indicates the insertion of one word into another
+         1: "an" is verbatim text
+         2: The text "closed street to" resolves to "court"
+      For the insertion, "an" needs to be inserted into "court"
+      The result is "courant"
+   2: The text "eastern" resolves to "e"
+Joining the results together we get "courant e"
+-----------
+438 1158
+The clue is: closed street to hold an eastern dance (8)
+I think the solution is "COURANTE"
+
+Let me explain...
+I think the answer is supposed to mean "dance"
+I think we have the concatenation of 2 sub-clues:
+   1: I think "to hold" indicates the insertion of one word into another
+         1: "an" is verbatim text
+         2: The text "closed street" resolves to "court"
+      For the insertion, "an" needs to be inserted into "court"
+      The result is "courant"
+   2: The text "eastern" resolves to "e"
+Joining the results together we get "courant e"
+
+
+checkSyn "specification" "list" -- maybe specification -> ??
+
+but there's nothing in it -> bout
+
+middle-age -> g
+
+Expand hyphenated text e.g. centre-left -> corel.
+
+Evaluate once with simple synonyms and then with copound synonyms. The problem
+is that the synonyms are cached by the *parser*.
+
+Similarly, try verbatim text before synonym expansions in take-outs.
+
+Map homophones e.g. "see you" -> "cu"
+
+Pluralise manual synonym nouns, e.g. stoves -> agas
+
+Prune out identical parses that differ only in labelled and unlabelled
+charades. E.g. First (Syn (0,0)) + Syn (3,4) == First (Syn (0,0)) +[lab] Syn
+(3,4). The label here is attached (wrongly?) to the First indicator.
+
+Parallelise, esp for laptop.
+
+&lit clues.
+
+Multiple word solutions.
+
+Avoid essentially duplicate parses arising from noise words being attached
+to both a def indicator and some other, e.g. "Bond's said to be Asian",
+where "to" and "to be" could be attached to either the homophone or the
+definition.
+
+

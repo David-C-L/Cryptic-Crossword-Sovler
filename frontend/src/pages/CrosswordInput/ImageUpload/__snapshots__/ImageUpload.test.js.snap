@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="container align-items-center"
+>
+  <form>
+    <div
+      className="row mb-5"
+    >
+      <div
+        className="col form-group"
+      >
+        <label
+          htmlFor="puzzleUpload"
+        >
+          Crossword Puzzle
+        </label>
+        <input
+          accept=".jpg,.png"
+          className="form-control"
+          id="puzzleUpload"
+          onChange={[Function]}
+          type="file"
+        />
+      </div>
+    </div>
+    <div
+      className="row mb-5"
+    >
+      <div
+        className="col form-group"
+      >
+        <label
+          htmlFor="acrossCluesUpload"
+        >
+          Across Clues
+        </label>
+        <input
+          accept=".jpg,.png"
+          className="form-control"
+          id="acrossCluesUpload"
+          onChange={[Function]}
+          type="file"
+        />
+      </div>
+    </div>
+    <div
+      className="row mb-5"
+    >
+      <div
+        className="col form-group"
+      >
+        <label
+          htmlFor="downCluesUpload"
+        >
+          Down Clues
+        </label>
+        <input
+          accept=".jpg,.png"
+          className="form-control"
+          id="downCluesUpload"
+          onChange={[Function]}
+          type="file"
+        />
+      </div>
+    </div>
+    <div
+      className="row mb-5"
+    >
+      <div
+        className="col form-group"
+      >
+        <label
+          htmlFor="inputNoOfRows"
+        >
+          Number of Rows
+        </label>
+        <input
+          aria-describedby="noOfRows"
+          className="form-control"
+          id="inputNoOfRows"
+          onChange={[Function]}
+          type="number"
+          value=""
+        />
+      </div>
+      <div
+        className="col form-group"
+      >
+        <label
+          htmlFor="inputNoOfColumns"
+        >
+          Number of Columns
+        </label>
+        <input
+          aria-describedby="noOfColumns"
+          className="form-control"
+          id="inputNoOfColumns"
+          onChange={[Function]}
+          type="number"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="row mb-5"
+    >
+      <div
+        className="col text-center"
+      >
+        <button
+          className="my-3 btn btn-primary"
+          onClick={[Function]}
+          type="submit"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

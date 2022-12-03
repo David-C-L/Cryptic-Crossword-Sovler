@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "maxHeight": "80vh",
+      "overflow-y": "scroll",
+    }
+  }
+>
+  <h3
+    className="text-center"
+  >
+    Timeline
+  </h3>
+</div>
+`;

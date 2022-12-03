@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<table
+  className="confidence-key"
+>
+  <tr>
+    <td
+      className="confidence-key-entry"
+      colSpan="2"
+    />
+  </tr>
+  <tr>
+    <td>
+      <p
+        className="confidence-key-label left-label"
+      >
+        Low confidence
+      </p>
+    </td>
+    <td>
+      <p
+        className="confidence-key-label right-label"
+      >
+        High confidence
+      </p>
+    </td>
+  </tr>
+</table>
+`;

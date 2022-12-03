@@ -1,0 +1,42 @@
+/* CSS FOR TRANSITIONS */
+
+.route__container {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+
+.left .route-enter {
+  transform: translateX(100%);
+}
+
+.left .route-enter-active {
+  transform: translateX(0%);
+}
+
+.left .route-exit {
+  transform: translateX(-100%);
+}
+
+.left .route-exit-active {
+  transform: translateX(-100%);
+}
+
+.right .route-enter {
+  transform: translateX(-100%);
+}
+
+.right .route-enter-active {
+  transform: translateX(0%);
+}
+
+.right .route-exit {
+  transform: translateX(100%);
+}
+
+.right .route-exit-active {
+  transform: translateX(100%);
+}

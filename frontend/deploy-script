@@ -1,0 +1,10 @@
+#!bin/bash
+
+npm install
+REACT_APP_PRODUCTION=1 npm start
+#mkdir /app
+#cp -r . /app
+#cd /app
+#npm install
+#REACT_APP_PRODUCTION=1 npm run build
+#serve -s build

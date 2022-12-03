@@ -1,0 +1,33 @@
+stages:
+  - frontend-tests
+  - production-deployment
+  - internal-deployment
+
+variables:
+  PORT_NO: 3000
+
+frontend-tests:
+  stage: frontend-tests
+  script:
+    - npm install
+    - CI=true npm test -- --coverage --ci --watchAll=false
+  artifacts:
+    reports:
+      cobertura: coverage/clover.xml
+
+production-deployment:
+  stage: production-deployment
+  script:
+    - dpl --provider=heroku --app=cryptic-crossword-solver --api-key=$HEROKU_API_KEY
+  only:
+    - master
+
+internal-deployment:
+  stage: internal-deployment
+  script:
+    - echo "Killing old running process."
+    - kill -9 $(lsof -t -i:$PORT_NO) || echo "Nothing to kill or kill failed"
+    - npm install
+    - CI=false REACT_APP_PRODUCTION=0 npm run build
+    - export PORT=$PORT_NO
+    - screen -m -d serve -n -s build -l $PORT_NO

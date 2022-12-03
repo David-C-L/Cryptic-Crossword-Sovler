@@ -1,0 +1,1 @@
+{"publisher":"Times","date":993686400000,"author":"","number":10,"orientation":"across","clue":"sacred writings priest and cur\u00e9 for the most part unravelled (9)","answer":"scripture","enumeration":"(9)","quick":false,"sub_publisher":"The Times"}

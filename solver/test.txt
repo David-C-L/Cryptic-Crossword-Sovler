@@ -1,0 +1,20 @@
+[
+            "GHCi, version 8.6.5: http://www.haskell.org/ghc/  :? for help\\r\\n",
+            "[ 1 of 16] Compiling Types            ( Types.hs, interpreted )\\r\\n",
+            "[ 2 of 16] Compiling Constants        ( Constants.hs, interpreted )\\r\\n",
+            "[ 3 of 16] Compiling Clues            ( Clues.hs, interpreted )\\r\\n",
+            "[ 4 of 16] Compiling Utilities        ( Utilities.hs, interpreted )\\r\\n",
+            "[ 5 of 16] Compiling Stemmer          ( Stemmer.hs, interpreted )\\r\\n",
+            "[ 6 of 16] Compiling Matches          ( Matches.hs, interpreted )\\r\\n",
+            "[ 7 of 16] Compiling Databases        ( Databases.hs, interpreted )\\r\\n",
+            "[ 8 of 16] Compiling Indicators       ( Indicators.hs, interpreted )\\r\\n",
+            "[ 9 of 16] Compiling IndicatorPredicates ( IndicatorPredicates.hs, interpreted )\\r\\n",
+            "[10 of 16] Compiling BoundsFunctions  ( BoundsFunctions.hs, interpreted )\\r\\n",
+            "[11 of 16] Compiling CacheFunctions   ( CacheFunctions.hs, interpreted )\\r\\n",
+            "[12 of 16] Compiling ShowFunctions    ( ShowFunctions.hs, interpreted )\\r\\n",
+            "[13 of 16] Compiling ParseTreeFilters ( ParseTreeFilters.hs, interpreted )\\r\\n",
+            "[14 of 16] Compiling Parser           ( Parser.hs, interpreted )\\r\\n",
+            "[15 of 16] Compiling Evaluation       ( Evaluation.hs, interpreted )\\r\\n",
+            "[16 of 16] Compiling Solver           ( Solver.hs, interpreted )\\r\\n",
+            "Ok, 16 modules loaded.\\r\\n"
+        ]
